@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "check_balance",
+      "patterns": [
+        "What is my balance?",
+        "Show me my account balance",
+        "How much money do I have left?"
+      ],
+      "responses": [
+        "Your account balance is Rs. XXXX.",
+        "You currently have Rs. XXXX in your account."
+      ]
+    },
+    {
+      "intent": "reset_password",
+      "patterns": [
+        "I forgot my password",
+        "Help me reset my password",
+        "Password recovery"
+      ],
+      "responses": [
+        "You can reset your password using the link we’ve sent to your registered email.",
+        "A reset password request has been initiated."
+      ]
+    },
+    {
+      "intent": "open_ticket",
+      "patterns": [
+        "I need help with something",
+        "Raise a support ticket",
+        "Contact support"
+      ],
+      "responses": [
+        "A support ticket has been created. Our team will contact you shortly.",
+        "Your ticket number is TKT-XXXX."
+      ]
+    }
+  ]
+}
